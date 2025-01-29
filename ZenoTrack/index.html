@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zeno's Activity Tracker</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+  <h1>ZenoTrack</h1>
+
+  <form id="activity-form">
+    <div>
+      <label for="timestamp">Timestamp:</label>
+      <input type="text" id="timestamp" name="timestamp" readonly>
+    </div>
+
+    <div>
+      <button type="button" id="get-location">Capture Location</button>
+      <input type="text" id="location" name="location" readonly>
+    </div>
+
+    <div>
+      <label for="notes">Notes:</label>
+      <textarea id="notes" name="notes"></textarea>
+    </div>
+
+    <button type="submit">Save Activity</button>
+  </form>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
